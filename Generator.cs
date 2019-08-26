@@ -8,7 +8,7 @@ public class Generator : MonoBehaviour {
 
 
 	void OnTriggerEnter(Collider coll) 
-	{
+	{  
 		if(coll.gameObject.tag == "Player")
 		{
 			Instantiate (PlatformPrefab, Platform.position, Platform.rotation);
